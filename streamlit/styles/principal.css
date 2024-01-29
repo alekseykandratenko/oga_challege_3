@@ -1,0 +1,117 @@
+div[data-testid="metric-container"] {
+    background-color: #FFFFFF;
+    border: 2px solid #EAEAEB;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #E51B20;
+    overflow-wrap: break-word;
+}
+
+div[data-testid="metric-container"] > label[data-testid="stMetricLabel"] > div {
+    overflow-wrap: break-word;
+    white-space: break-spaces;
+    color: black;
+}
+
+/* Input text */
+div[data-baseweb="base-input"] {
+    border: 2px solid #EAEAEB;
+    border-radius: 5px;
+}
+
+/* Menu parapetrs*/
+div[class="fs-2 mb-3"]{
+    font-size: 2.0rem;
+    font-family: Avenir,Helvetica,Arial,sans-serif;
+    margin-top: 2.5rem;
+    margin-left: 0.1rem;
+    margin-right: 0.75rem;
+    color: #31333F;
+    line-height: 1.5;
+}
+
+text[class="menu-text-representation"]{
+    margin-left: 0.5rem;
+}
+
+div[class="element-container css-16zaexp e1tzin5v3"]{
+    margin-top: 1.5rem;
+}
+
+/* Multiselect */
+div[data-baseweb="select"] {
+    border: 2px solid #EAEAEB;
+    border-radius: 5px;
+}
+
+/* Label text over the input fields (multiselect, text input, ...) */
+label.css-81oif8.effi0qh3 {
+    color: #bfbfbf;
+}
+
+section.main > div.block-container {
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+/* Logo OGA */
+section.main > div.block-container > div:first-child > div > div.element-container > div > div {
+    justify-content: end;
+}
+
+/* Only right button */
+/* Justify it to the right in order to be align with the other button */
+div[data-testid="stHorizontalBlock"]> div:nth-child(2) > div > div > div > div.stButton {
+    display: flex;
+    justify-content: end; 
+} 
+
+section.main > div.block-container > div:first-child > div > div[data-testid="stHorizontalBlock"] > div:nth-child(2) > div > div[data-testid="stVerticalBlock"]  > div:first-child > div > div {
+    justify-content: center;
+}
+
+section[data-testid="stSidebar"] > div:first-child > div:first-child {
+    display: none;
+}
+
+section[data-testid="stSidebar"] > div:first-child > div:nth-child(2) {
+    padding-top: 1rem;
+}
+
+section[data-testid="stSidebar"] > div:first-child > div:nth-child(2) > div > div > div > div:first-child > div > div {
+    justify-content: center;
+}
+
+/* #MainMenu {
+    visibility: hidden;
+} */
+
+/* Make grey line between sidebar and main contect always visible */
+.css-gggys9 {
+	background-image: linear-gradient(to right, transparent 20%, rgba(49, 51, 63, 0.3) 28%, transparent 36%);
+}
+
+/* Fix sidebar width */
+.css-19oqd3w {
+	max-width: 290px;
+    min-width: 290px;
+}
+
+/* Remove the colored upper line */
+.css-1dp5vir {
+    visibility: hidden;
+}
+
+footer.css-qri22k {
+    display: none;
+}
+
+label.css-81oif8.effi0qh3 {
+    color:rgba(49, 51, 63, 0.6);
+}
+
+/*Map view*/
+/* section[class="leaflet-control-layers-list leaflet-control-layers-scrollbar"]{
+    height: 100px;
+} */
+
